@@ -24,4 +24,3 @@ class Revista implements IPublicable{
       return "Revista: {$this->titulo} ({$this->anio})\n" . $this->autor->getInfo();
     }
 }
-    
